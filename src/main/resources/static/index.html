@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<title>Cinema Magagement System</title>
+</head>
+
+<body>
+
+<div class="container">
+
+	<h3>Cinema Magagement System</h3>
+	<hr>
+	
+	<!-- button redirecting to films list -->
+	<a th:href="@{/films/list}"
+		class="btn btn-primary btn-sm mb-3">
+		Show films list
+	</a>
+	
+		<!-- button redirecting to film shows list -->
+	<a th:href="@{/film_shows/list}"
+		class="btn btn-primary btn-sm mb-3">
+		Show film shows list
+	</a>
+	
+		<!-- button redirecting to screening room list -->
+	<a th:href="@{/screening_rooms/list}"
+		class="btn btn-primary btn-sm mb-3">
+		Show screening room list
+	</a>
+	
+		<!-- button redirecting to reservation list -->
+	<a th:href="@{/reservations/list}"
+		class="btn btn-primary btn-sm mb-3">
+		Show reservation list
+	</a>
+	
+	<hr>
+	
+	<h1>
+	<img th:src="{@/images/welcome_cinema.jpg}" 
+			alt="welcome to the cinema logo" 
+			class="img-responsive" width="400" height="400"/>
+	</h1>
+	
+</div>
+	
+</body>
+</html>
+
+
+
+	  
