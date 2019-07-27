@@ -34,6 +34,9 @@ public class FilmShow {
 	@DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
 	private LocalDateTime showStartTime;
 	
+	@Column(name = "free_seats")
+	private int freeSeats;
+	
 	/*
 	 * ____________________________________________
 	 * OneToMany / ManyToOne relations

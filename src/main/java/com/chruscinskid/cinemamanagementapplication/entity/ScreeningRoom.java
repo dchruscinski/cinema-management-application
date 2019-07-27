@@ -31,6 +31,9 @@ public class ScreeningRoom {
 	@Column(name = "seats_number")
 	private int seatsNumber;
 	
+	@Column(name = "free_seats_number")
+	private int freeSeatsNumber;
+	
 	/*
 	 * __________________
 	 * OneToMany relation
