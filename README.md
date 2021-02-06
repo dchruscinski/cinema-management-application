@@ -1,6 +1,6 @@
 # Cinema management application
 
-It's another CRUD web application created by me. Tepository contains web app for managing a small cinema.
+It's another CRUD web application created by me. Repository contains web app for managing a small cinema.
 
 ## Technologies
 
